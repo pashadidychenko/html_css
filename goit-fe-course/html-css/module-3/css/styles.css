@@ -1,0 +1,22 @@
+* {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+  }
+ul {list-style-type: none;}  
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+}
+h5 {
+    font-weight: 400;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.menu>li {
+    text-transform: uppercase;
+    display: inline-block;
+}
+.nav {background-color: aquamarine;
+}
+a {text-decoration: none;}
