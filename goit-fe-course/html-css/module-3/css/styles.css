@@ -2,10 +2,6 @@ html {
   box-sizing: border-box;
   font-family: "Playfair Display";
 }
-*,
-*::before *::after {
-  box-sizing: inherit;
-}
 .container {
   width: 900px;
   margin: 0 auto;
@@ -28,7 +24,7 @@ img {
 }
 .list {
   list-style: none;
-  margin: o;
+  margin: 0;
   padding: 0;
   font-size: 0px;
 }
