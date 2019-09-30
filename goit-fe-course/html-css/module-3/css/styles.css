@@ -1,22 +1,103 @@
-* {
-    font-family: 'Playfair Display', serif;
-    font-size: 14px;
-  }
-ul {list-style-type: none;}  
+html {
+  box-sizing: border-box;
+  font-family: "Playfair Display";
+}
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.nav {
+  padding: 70px 0;
+}
+.nav .main {
+  display: inline-block;
+}
+a:hover,
+a:focus {
+  color: #03a9f4;
+}
+a {
+  text-decoration: none;
+}
+img {
+  margin: 0;
+}
+.list {
+  list-style: none;
+  margin: o;
+  padding: 0;
+  font-size: 0px;
+}
+.list-item {
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+  margin-bottom: 0px;
+  font-size: 0px;
+  font-style: normal;
+  color: #626262;
+}
+.list-item:nth-child(2n) {
+  margin-right: 0;
+}
+.menu {
+  display: inline-block;
+  width: 900px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+  text-align: center;
+}
+.menu li {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 100px;
+  padding: 0;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
 h2 {
-    font-size: 30px;
-    font-weight: 400;
-    color: #626262;
+  font-size: 30px;
+  font-weight: 400;
+  color: #626262;
+  margin-bottom: 22px;
+  margin-top: 0px;
 }
 h5 {
-    font-weight: 400;
-    color: #b4ad9e;
-    text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
-.menu>li {
-    text-transform: uppercase;
-    display: inline-block;
+p {
+  font-size: 14px;
+  color: #626262;
+  margin: 0;
+  margin-bottom: 52px;
 }
-.nav {background-color: aquamarine;
+button {
+  display: block;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+  border: none;
+  padding: 20px 34px;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-color: #626262;
+  border-style: solid;
+  margin: 0 auto;
 }
-a {text-decoration: none;}
+button:hover,
+button:focus {
+  background-color: #dddcd7;
+}
