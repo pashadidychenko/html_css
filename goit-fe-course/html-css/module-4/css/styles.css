@@ -1,0 +1,336 @@
+.clearfix {
+  display: table;
+  content: "";
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+.products {
+  margin: 0;
+}
+.nav {
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+}
+.nav-link {
+  font-family: "Open Sans";
+  text-decoration: none;
+  font-size: 14px;
+  color: #0f0101;
+  font-weight: 700;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #1abc9c;
+}
+.site-logo {
+  display: inline-block;
+}
+.site-nav {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "roboto";
+  text-transform: uppercase;
+  margin-top: 46px;
+}
+.site-nav li {
+  float: left;
+  font-size: 14px;
+}
+.site-nav li:not(:first-child) {
+  padding-left: 16px;
+}
+.site-nav li:not(:last-child) {
+  padding-right: 16px;
+}
+.site-logo {
+  font-family: "roboto";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #555252;
+  margin-top: 36px;
+}
+.site-logo::first-letter {
+  font-family: "roboto";
+  color: #1abc9c;
+  font-size: 30px;
+  font-weight: 800;
+}
+.site-logo:hover,
+.site-logo:focus {
+  color: #1abc9c;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "roboto";
+  font-size: 48px;
+  color: #515151;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+h2::after {
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  content: "";
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.featured-products {
+  margin-bottom: 92px;
+}
+div {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.img-product {
+  display: block;
+  min-height: 282px;
+  max-width: 255px;
+  margin: auto;
+  object-fit: none;
+}
+.products-list-item {
+  float: left;
+  width: 255px;
+  height: 322px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+/* в задании не понятно цвет фона белый и меняется при на ведении или цвет фона 
+постоянный что бы изменить нужно просто поменять цвета местами в следующих записях */
+.products-list-item {
+  background-color: #e9f0fd;
+}
+.ip1:hover {
+  background-color: #ffffff;
+}
+.ip1:hover h3 {
+  background: linear-gradient(
+    90deg,
+    #1abc9c 0%,
+    #1abc9c 80%,
+    #7fd9c7 80%,
+    #7fd9c7 100%
+  );
+}
+.ip2:hover {
+  background-color: #ffffff;
+}
+.ip2:hover h3 {
+  background: linear-gradient(
+    90deg,
+    #1abc9c 0%,
+    #1abc9c 80%,
+    #7fd9c7 80%,
+    #7fd9c7 100%
+  );
+}
+.ip3:hover {
+  background-color: #ffffff;
+}
+.ip3:hover h3 {
+  background: linear-gradient(
+    90deg,
+    #1abc9c 0%,
+    #1abc9c 80%,
+    #7fd9c7 80%,
+    #7fd9c7 100%
+  );
+}
+.ip4:hover {
+  background-color: #ffffff;
+}
+.ip4:hover h3 {
+  background: linear-gradient(
+    90deg,
+    #1abc9c 0%,
+    #1abc9c 80%,
+    #7fd9c7 80%,
+    #7fd9c7 100%
+  );
+}
+.ip5:hover {
+  background-color: #ffffff;
+}
+.ip5:hover h3 {
+  background: linear-gradient(
+    90deg,
+    #1abc9c 0%,
+    #1abc9c 80%,
+    #7fd9c7 80%,
+    #7fd9c7 100%
+  );
+}
+.ip6:hover {
+  background-color: #ffffff;
+}
+.ip6:hover h3 {
+  background: linear-gradient(
+    90deg,
+    #1abc9c 0%,
+    #1abc9c 80%,
+    #7fd9c7 80%,
+    #7fd9c7 100%
+  );
+}
+.ip7:hover {
+  background-color: #ffffff;
+}
+.ip7:hover h3 {
+  background: linear-gradient(
+    90deg,
+    #1abc9c 0%,
+    #1abc9c 80%,
+    #7fd9c7 80%,
+    #7fd9c7 100%
+  );
+}
+.ip8:hover {
+  background-color: #ffffff;
+}
+.ip8:hover h3 {
+  background: linear-gradient(
+    90deg,
+    #1abc9c 0%,
+    #1abc9c 80%,
+    #7fd9c7 80%,
+    #7fd9c7 100%
+  );
+}
+.products-list-item:nth-child(4n) {
+  margin-right: 0px;
+}
+.products-list-item:nth-last-child(-n + 4) {
+  margin-bottom: 96px;
+}
+.price-name {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  float: left;
+  width: 239px;
+  height: 24px;
+  background: linear-gradient(
+    90deg,
+    #323232 0%,
+    #323232 80%,
+    #8c8c8c 80%,
+    #8c8c8c 100%
+  );
+}
+.p1::after {
+  float: right;
+  content: "\0024 26";
+}
+.p2::after {
+  float: right;
+  content: "\0024 31";
+}
+.p3::after {
+  float: right;
+  content: "\0024 21";
+}
+.p4::after {
+  float: right;
+  content: "\0024 56";
+}
+.p5::after {
+  float: right;
+  content: "\0024 26";
+}
+.p6::after {
+  float: right;
+  content: "\0024 31";
+}
+.p7::after {
+  float: right;
+  content: "\0024 21";
+}
+.p8::after {
+  float: right;
+  content: "\0024 56";
+}
+.news {
+  margin: 0;
+  padding: 0;
+}
+.news-item {
+  float: left;
+  width: 350px;
+  margin-right: 30px;
+}
+.news-item:last-child {
+  margin-right: 0;
+}
+.latest-news {
+  margin-bottom: 80px;
+}
+h3 {
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: #555252;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  margin-top: 12px;
+}
+.name-news::after {
+  display: block;
+  width: 136px;
+  height: 4px;
+  background-color: #1abc9c;
+  content: "";
+  margin: 0;
+  margin-top: 10px;
+}
+.news-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: #555252;
+  font-weight: 400;
+  margin: 24px 0px 14px 0px;
+  padding: 0;
+}
+.button {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  padding: 20px 34px;
+  background-color: #4ec6ab;
+  margin-bottom: 46px;
+  border-radius: 3px;
+}
+.button:hover,
+.button:focus {
+  background: #7fd9c7;
+}
