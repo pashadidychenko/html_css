@@ -13,11 +13,16 @@ body {
   width: 1110px;
   margin: 0 auto;
 }
+h3,
+.nav-link,
+.news-text,
+.button {
+  font-family: "Open Sans";
+}
 .nav {
   margin-bottom: 96px;
 }
 .nav-link {
-  font-family: "Open Sans";
   font-weight: 700;
   font-size: 14px;
   color: #0f0101;
@@ -175,7 +180,6 @@ ul {
   margin-bottom: 80px;
 }
 h3 {
-  font-family: "Open Sans";
   font-size: 18px;
   color: #555252;
   font-weight: 600;
@@ -191,7 +195,6 @@ h3 {
   margin: 10px 0px 0px 0px;
 }
 .news-text {
-  font-family: "Open Sans";
   font-size: 14px;
   color: #555252;
   font-weight: 400;
@@ -199,7 +202,6 @@ h3 {
   padding: 0;
 }
 .button {
-  font-family: "Open Sans";
   font-size: 16px;
   font-weight: 100;
   color: #ffffff;
