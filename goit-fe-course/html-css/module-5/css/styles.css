@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", "Roboto", sans-serif;
 }
 body {
   margin: 0;
@@ -51,8 +50,6 @@ ul {
   color: #1abc9c;
 }
 .nav {
-  width: 1110px;
-  margin: 0 auto;
   padding-bottom: 30px;
 }
 .nav-list-link {
@@ -68,12 +65,11 @@ ul {
 }
 .nav-list {
   float: right;
-  margin: 0;
+  margin: 46px 0px 0px 0px;
   padding: 0;
   list-style: none;
   font-family: "roboto";
   text-transform: uppercase;
-  margin-top: 46px;
 }
 .nav-list li {
   float: left;
@@ -85,7 +81,6 @@ ul {
 .nav-list li:not(:last-child) {
   padding-right: 16px;
 }
-
 .main-title {
   text-align: center;
   text-transform: uppercase;
@@ -102,24 +97,7 @@ ul {
   height: 7px;
   background-color: #1abc9c;
   content: "";
-  margin: 0 auto;
-  margin-top: 24px;
-}
-footer {
-  height: 88px;
-  background-color: #323232;
-}
-.footer-text {
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 300;
-  color: #fefefe;
-  text-align: center;
-  margin: 0;
-  padding-top: 32px;
-}
-.footer-text span {
-  color: #46bfa9;
+  margin: 24px auto;
 }
 .slider-list,
 .slider-title,
@@ -187,7 +165,8 @@ footer {
   background-image: url(../img/next.png);
   right: 0;
 }
-.but-slider:hover {
+.but-slider:hover,
+.but-slider:focus {
   opacity: 1;
 }
 .slider-title {
@@ -201,7 +180,7 @@ footer {
   width: 100%;
   text-align: center;
   background-color: rgba(0, 0, 2, 0.522);
-  z-index: 5;
+  z-index: 3;
 }
 .slider-title-text {
   position: absolute;
@@ -262,7 +241,6 @@ footer {
   padding: 10px;
   float: left;
 }
-
 .list-button {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.549);
@@ -274,7 +252,7 @@ footer {
 }
 .button-list {
   position: absolute;
-  width: 164px;
+  width: 165px;
   height: 104px;
   top: 50%;
   left: 50%;
@@ -357,4 +335,20 @@ footer {
     #7fd9c7 80%,
     #7fd9c7 100%
   );
+}
+footer {
+  height: 88px;
+  background-color: #323232;
+}
+.footer-text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  color: #fefefe;
+  text-align: center;
+  margin: 0;
+  padding-top: 32px;
+}
+.futer-autor {
+  color: #46bfa9;
 }
