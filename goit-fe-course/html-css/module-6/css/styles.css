@@ -1,0 +1,235 @@
+* {
+  font-family: "Montserrat", "Roboto", "Kaushan Script", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+}
+.container {
+  width: 1200px;
+}
+ul {
+  list-style: none;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-height: 50px;
+  margin-bottom: 112px;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1abc9c;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 490px;
+}
+.nav-link {
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #1abc9c;
+  font-weight: 400;
+}
+.nav-link:hover::after {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 3px;
+  background-color: #f38181;
+  content: "";
+  margin: 10px 0px -10px 0px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #f38181;
+}
+.service-head,
+.team-head {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-head::before {
+  content: "We work with";
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  color: #333333;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.service-head::after,
+.team-head::after {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  content: "";
+  margin: 40px 0;
+}
+.service-head::after {
+  margin-bottom: 64px;
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 88px;
+}
+.service-item {
+  display: flex;
+  width: 380px;
+}
+.service-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 94px;
+}
+.service-item-head,
+.team-name {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.service-item-text,
+.team-text,
+.team-post {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #999999;
+}
+.service-item-icon {
+  align-self: stretch;
+  font-size: 0px;
+  min-width: 78px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.icon-clock {
+  background-image: url(../img/alarm.png);
+}
+.icon-graf {
+  background-image: url(../img/LINE_GRAPH.png);
+}
+.icon-mon {
+  background-image: url(../img/COMPUTER.png);
+}
+.icon-book {
+  background-image: url(../img/BOOK.png);
+}
+.icon-home {
+  background-image: url(../img/HOME.png);
+}
+.icon-didg {
+  background-image: url(../img/IMAGE.png);
+}
+.service-item-block {
+  display: flex;
+  flex-direction: column;
+}
+.team {
+}
+.team-head {
+}
+.team-head::before {
+  content: "Who we are";
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  color: #333333;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.team-text {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 92px;
+}
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+.team-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-image {
+  margin-bottom: 28px;
+}
+.team-name {
+}
+.team-post {
+  font-style: italic;
+  margin-bottom: 80px;
+}
+.footer {
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #e5e5e5;
+}
+.footer-text {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+}
+.footer-text::before {
+  content: "\00A9";
+}
+.footer-last-word {
+  color: #f38181;
+}
+.footer-form {
+  display: flex;
+}
+.input-text {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e7e7e7;
+  background-color: #ffffff;
+  width: 232px;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: #cccccc;
+  font-style: italic;
+  padding-left: 6px;
+}
+.button {
+  border-style: none;
+  background-color: #95e1d3;
+  width: 150px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
