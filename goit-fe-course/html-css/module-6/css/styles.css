@@ -56,9 +56,12 @@ ul {
   background-color: #f38181;
   content: "";
   margin: 10px 0px -10px 0px;
-}
+  }
 .nav-link:hover,
 .nav-link:focus {
+  transition-property: color;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
   color: #f38181;
 }
 .service-head,
@@ -174,14 +177,77 @@ ul {
   justify-content: space-between;
 }
 .team-item {
-  display: flex;
+   display: flex;
   flex-direction: column;
   align-items: center;
-}
+ }
+ .team-item:hover .team-image {
+ position: absolute;
+  top: -10px;
+  left: -10px;
+ }
+ .team-item:hover .team-image-content {
+  transition-property: opacity;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+opacity: 1;
+ }
 .team-image {
-  margin-bottom: 28px;
+
 }
-.team-name {
+.team-image-box, .team-image-content {
+  width: 380px;
+  height: 470px;
+}
+.team-image-box {
+  position: relative;
+  margin-bottom: 30px;
+  background-color: #95e1d3;
+}
+.team-image-content {
+display: flex;
+position: absolute;
+background-image: -moz-linear-gradient( 90deg, rgba(252,227,138, 0.9) 0%, rgba(243,129,129,0.9) 100%);
+background-image: -webkit-linear-gradient( 90deg, rgba(252,227,138, 0.9) 0%, rgba(243,129,129,0.9) 100%);
+background-image: -ms-linear-gradient( 90deg, rgba(252,227,138, 0.9) 0%, rgba(243,129,129,0.9) 100%);
+top: -10px;
+left: -10px;
+align-items: center;
+justify-content: center;
+opacity: 0;
+}
+.social-list {
+    display: flex;
+  }
+.social-item {
+   width: 56px;
+  height: 56px;
+  font-size: 0px;
+  background-color: rgba(252, 227, 138, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+    }
+.icon-facebook {
+  background-image: url(../img/facebook.png);
+}
+.icon-twitter {
+  background-image: url(../img/twitter.png);
+}
+.icon-pinterest {
+  background-image: url(../img/pinterest.png);
+}
+.icon-instagram {
+  background-image: url(../img/instagram.png);
+}
+.social-item:hover {
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  background-color: #95e1d3;
+
+}
+.social-item:not(:last-child) {
+  margin-right: 1px;
 }
 .team-post {
   font-style: italic;
