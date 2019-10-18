@@ -48,15 +48,20 @@ ul {
   color: #1abc9c;
   font-weight: 400;
 }
+@keyframes block-link {
+  100% {
+    background-color: #f38181;
+  }
+}
 .nav-link:hover::after {
   position: absolute;
   display: flex;
   width: 100%;
   height: 3px;
-  background-color: #f38181;
   content: "";
-  margin: 10px 0px -10px 0px;
-  }
+  transform: translateY(10px);
+  animation: block-link 200ms forwards;
+}
 .nav-link:hover,
 .nav-link:focus {
   transition-property: color;
@@ -153,10 +158,6 @@ ul {
   display: flex;
   flex-direction: column;
 }
-.team {
-}
-.team-head {
-}
 .team-head::before {
   content: "Who we are";
   font-family: "Kaushan Script";
@@ -177,25 +178,25 @@ ul {
   justify-content: space-between;
 }
 .team-item {
-   display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
- }
- .team-item:hover .team-image {
- position: absolute;
-  top: -10px;
-  left: -10px;
- }
- .team-item:hover .team-image-content {
-  transition-property: opacity;
+}
+.team-item:hover .team-image {
+  transition-property: transform;
   transition-duration: 200ms;
   transition-timing-function: linear;
-opacity: 1;
- }
-.team-image {
-
+  transform: translate(-10px, -10px);
 }
-.team-image-box, .team-image-content {
+.team-item:hover .team-image-content {
+  transition-property: opacity, transform;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  opacity: 1;
+  transform: translate(-10px, -10px);
+}
+.team-image-box,
+.team-image-content {
   width: 380px;
   height: 470px;
 }
@@ -205,28 +206,40 @@ opacity: 1;
   background-color: #95e1d3;
 }
 .team-image-content {
-display: flex;
-position: absolute;
-background-image: -moz-linear-gradient( 90deg, rgba(252,227,138, 0.9) 0%, rgba(243,129,129,0.9) 100%);
-background-image: -webkit-linear-gradient( 90deg, rgba(252,227,138, 0.9) 0%, rgba(243,129,129,0.9) 100%);
-background-image: -ms-linear-gradient( 90deg, rgba(252,227,138, 0.9) 0%, rgba(243,129,129,0.9) 100%);
-top: -10px;
-left: -10px;
-align-items: center;
-justify-content: center;
-opacity: 0;
+  display: flex;
+  position: absolute;
+  background-image: -moz-linear-gradient(
+    90deg,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
+  background-image: -ms-linear-gradient(
+    90deg,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
+  top: 0px;
+  left: 0px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
 }
 .social-list {
-    display: flex;
-  }
+  display: flex;
+}
 .social-item {
-   width: 56px;
+  width: 56px;
   height: 56px;
   font-size: 0px;
-  background-color: rgba(252, 227, 138, 1);
+  background-color: #fce38a;
   background-repeat: no-repeat;
   background-position: center;
-    }
+}
 .icon-facebook {
   background-image: url(../img/facebook.png);
 }
@@ -244,7 +257,6 @@ opacity: 0;
   transition-duration: 200ms;
   transition-timing-function: linear;
   background-color: #95e1d3;
-
 }
 .social-item:not(:last-child) {
   margin-right: 1px;
