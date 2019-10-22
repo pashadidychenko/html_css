@@ -193,9 +193,9 @@ ul {
   border-radius: 2px;
   background-color: rgb(255, 255, 255);
   width: 459px;
-  height: 52px;
+  /* height: 52px; */
   margin-bottom: 30px;
-  padding-left: 18px;
+  padding: 16px 0px 16px 18px; /*вместо высоты строк */
   resize: none;
 }
 .contact-message {
@@ -217,17 +217,17 @@ ul {
   text-transform: uppercase;
   cursor: pointer;
 }
-.contact input[type="email"]:invalid,
-.contact input[type="text"]:invalid,
-.contact .contact-message:invalid {
+.contact input[type="email"]:invalid:not(:placeholder-shown),
+.contact input[type="text"]:invalid:not(:placeholder-shown),
+.contact .contact-message:invalid:not(:placeholder-shown) {
   box-shadow: 0px 0px 0px 2px #e91e43;
-   /* outline: #e91e43 solid 3px; */
-   /* Значение которое должно быть по условиям домашнего задания */
+  /* outline: #e91e43 solid 3px; */
+  /* Значение которое должно быть по условиям домашнего задания */
 }
-.contact input[type="email"]:valid,
-.contact input[type="text"]:valid,
-.contact .contact-message:valid {
+.contact input[type="email"]:valid:not(:placeholder-shown),
+.contact input[type="text"]:valid:not(:placeholder-shown),
+.contact .contact-message:valid:not(:placeholder-shown) {
   box-shadow: 0px 0px 0px 2px #008000;
   /* outline: #008000 solid 3px; */
-   /* Значение которое должно быть по условиям домашнего задания */
+  /* Значение которое должно быть по условиям домашнего задания */
 }
