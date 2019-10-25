@@ -68,14 +68,14 @@ ul {
   top: 20px;
   height: 384px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 .menu-list {
   display: flex;
-  order: -1;
-  flex-grow: 1;
+  /* order: -1;
+  flex-grow: 1; */
 }
 .menu-item-link {
   text-decoration: none;
@@ -109,7 +109,7 @@ ul {
   font-size: 18px;
   font-family: "Roboto";
   color: #ffffff;
-  width: 228px;
+  /* width: 228px; */
   text-align: center;
   padding: 18px 0px;
 }
@@ -175,7 +175,7 @@ ul {
   background-color: #4e73db;
   background-image: url(../img/telegram.png);
 }
-.menu-item-name {
+.main-item-name {
   font-size: 14px;
   font-family: "Montserrat";
   color: rgb(51, 51, 51);
@@ -183,11 +183,11 @@ ul {
   font-weight: 700;
   padding-top: 20px;
 }
-.menu-item-text {
+.main-item-text {
   font-size: 14px;
   font-family: "Roboto";
   color: #666666;
-  padding: 16px 48px 24px;
+  /* padding: 16px 48px 24px; */
   font-weight: 300;
 }
 .main-button {
