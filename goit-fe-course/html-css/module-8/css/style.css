@@ -45,14 +45,13 @@ ul {
 }
 .container {
   position: relative;
-  width: 320px;
   padding: 0;
   margin: 0 auto;
 }
 .header-image {
   background-color: rgb(26, 25, 21);
   max-width: 100%;
-  height: 540px;
+  height: 700px;
   object-fit: cover;
 }
 .logo {
@@ -68,14 +67,9 @@ ul {
   top: 20px;
   height: 384px;
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
 }
 .menu-list {
   display: flex;
-  /* order: -1;
-  flex-grow: 1; */
 }
 .menu-item-link {
   text-decoration: none;
@@ -109,7 +103,6 @@ ul {
   font-size: 18px;
   font-family: "Roboto";
   color: #ffffff;
-  /* width: 228px; */
   text-align: center;
   padding: 18px 0px;
 }
@@ -187,7 +180,6 @@ ul {
   font-size: 14px;
   font-family: "Roboto";
   color: #666666;
-  /* padding: 16px 48px 24px; */
   font-weight: 300;
 }
 .main-button {
