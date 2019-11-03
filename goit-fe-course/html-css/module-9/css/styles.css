@@ -41,9 +41,8 @@ a:hover {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-.wrapper  {
- position: relative; 
-
+.wrapper {
+  position: relative;
 }
 .header {
   width: 320px;
@@ -65,9 +64,9 @@ a:hover {
   color: rgb(255, 255, 255);
   font-weight: 700;
   text-transform: uppercase;
-  }
+}
 .menu {
-text-align: center;
+  text-align: center;
 }
 .menu-list {
   display: flex;
@@ -83,7 +82,6 @@ text-align: center;
   font-weight: 700;
   width: 94px;
   height: 40px;
-
 }
 .menu-item-link:hover {
   border-style: solid;
@@ -137,12 +135,12 @@ text-align: center;
 }
 .main {
   padding-top: 32px;
-   text-align: center;
+  text-align: center;
 }
 .item {
- margin: 0 auto;
+  margin: 0 auto;
   width: 236px;
- }
+}
 .wraper-image {
   position: relative;
   text-align: center;
@@ -256,22 +254,22 @@ text-align: center;
     font-weight: 300;
   }
   .menu-button {
-     width: 228px;
-     margin-top: 36px;
+    width: 228px;
+    margin-top: 36px;
   }
   .container {
     padding: 0;
   }
   .item {
-     width: 220px;
+    width: 220px;
   }
-.main-1 {
-  order: 2;
-}
-.main-2 {
-  order: 3;
-}
-.menu-text {
-  width: 100%;
-}
+  .main-1 {
+    order: 2;
+  }
+  .main-2 {
+    order: 3;
+  }
+  .menu-text {
+    width: 100%;
+  }
 }
