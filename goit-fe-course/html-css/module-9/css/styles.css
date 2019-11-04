@@ -65,7 +65,12 @@ a:hover {
   font-weight: 700;
   text-transform: uppercase;
 }
-.menu {
+.menu,
+.menu-title,
+.menu-text,
+.button,
+.main,
+.wraper-image {
   text-align: center;
 }
 .menu-list {
@@ -96,16 +101,13 @@ a:hover {
   font-size: 30px;
   font-weight: 700;
   color: #ffffff;
-  text-align: center;
 }
 .menu-text {
   font-size: 18px;
   font-family: "Roboto";
   color: #ffffff;
-  text-align: center;
 }
 .button {
-  text-align: center;
   margin-top: 16px;
 }
 .menu-button {
@@ -135,7 +137,6 @@ a:hover {
 }
 .main {
   padding-top: 32px;
-  text-align: center;
 }
 .item {
   margin: 0 auto;
@@ -143,7 +144,6 @@ a:hover {
 }
 .wraper-image {
   position: relative;
-  text-align: center;
 }
 .icon {
   border-style: solid;
