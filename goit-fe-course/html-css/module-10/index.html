@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Didychenko Pasha" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300i,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script:400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Home Work 10</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-box">
+        <img
+          srcset="
+            ./img/content/main-image.jpg    1920w,
+            ./img/content/main-image@2x.jpg 3840w
+          "
+          sizes="1920px"
+          src="./img/content/main-image.jpg"
+          alt="big bird"
+          height="1000"
+          class="header-box__img"
+        />
+      </div>
+      <nav class="header-nav container">
+        <div class="header-nav-menu container">
+          <h2 class="header-nav__logo header-nav__logo--hover">MoGo</h2>
+          <ul class="nav-menu menu">
+            <li>
+              <a href="#" class="nav-menu__item nav-menu__item--hover">about</a>
+            </li>
+            <li>
+              <a href="#" class="nav-menu__item nav-menu__item--hover"
+                >service</a
+              >
+            </li>
+            <li>
+              <a href="#" class="nav-menu__item nav-menu__item--hover">work</a>
+            </li>
+            <li>
+              <a href="#" class="nav-menu__item nav-menu__item--hover">blog</a>
+            </li>
+            <li>
+              <a href="#" class="nav-menu__item nav-menu__item--hover"
+                >contact</a
+              >
+            </li>
+            <li class="">
+              <a
+                href="#"
+                class="nav-menu__item nav-menu__icon nav-menu__icon--cart nav-menu__item--hover"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17.62"
+                  height="14.031"
+                  viewbox="0 0 17.62 14.031"
+                >
+                  <path
+                    id="SHOPPING_CART"
+                    data-name="SHOPPING CART"
+                    class="nav-menu__icon--cart"
+                    d="M1501.73,40.663h0l-2.48,5.5h0a0.815,0.815,0,0,1-.7.484h0l-7.12.475,0.41,1.177h7.76a1.65,1.65,0,1,1-1.65,1.651h-7.7a1.65,1.65,0,1,1-1.65-1.651h1.49l-3.18-9.075h-1.89a0.825,0.825,0,0,1,0-1.65h2.48a0.835,0.835,0,0,1,.78.554h0l0.48,1.373h12.21a0.826,0.826,0,0,1,.83.825A0.941,0.941,0,0,1,1501.73,40.663Zm-12.39.487,1.52,4.357,7.09-.473,1.75-3.884h-10.36Z"
+                    transform="translate(-1484.19 -37.563)"
+                  /></svg></a>
+            </li>
+            <li class="">
+              <a
+                href="#"
+                class="nav-menu__item nav-menu__icon nav-menu__icon--search nav-menu__item--hover"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17.62"
+                  height="17.625"
+                  viewbox="0 0 17.62 17.625"
+                >
+                  <path
+                    id="MAGNIFYING_GLASS"
+                    data-name="MAGNIFYING GLASS"
+                    class="nav-menu__icon--search"
+                    d="M1561.32,50.983a1.652,1.652,0,0,1-2.34,2.334h0l-4.83-4.836a6.627,6.627,0,1,1,2.33-2.334l4.84,4.836h0ZM1550.8,37.849a4.95,4.95,0,1,0,4.95,4.95A4.953,4.953,0,0,0,1550.8,37.849Z"
+                    transform="translate(-1544.19 -36.188)"
+                  /></svg></a>
+            </li>
+          </ul>
+        </div>
+        <h1 class="header__title">Welcome to MoGo</h1>
+        <button class="header__button header__button--hover">Learn more</button>
+      </nav>
+    </header>
+    <main class="container">
+      <section>
+        <h2 class="service__title section-title">Amazing service</h2>
+        <ul class="service-list menu">
+          <li class="service-list__item">
+            <div class="service-list__icon list__icon--clock">
+              <object
+                data="./img/icon/ALARM.svg"
+                type="image/svg+xml"
+                class=""
+              ></object>
+            </div>
+            <div class="service-list-block">
+              <h3 class="service-list-blok__title list--title">Photography</h3>
+              <p class="service-list-blok__text list--text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+          <li class="service-list__item">
+            <div class="service-list__icon list__icon--graf">
+              <object
+                data="./img/icon/LINEGRAPH.svg"
+                type="image/svg+xml"
+                class=""
+              ></object>
+            </div>
+            <div class="service-list-block">
+              <h3 class="service-list-blok__title list--title">Web Design</h3>
+              <p class="service-list-blok__text list--text">
+                Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+          <li class="service-list__item">
+            <div class="service-list__icon list__icon--mon">
+              <object
+                data="./img/icon/COMPUTER.svg"
+                type="image/svg+xml"
+                class=""
+              ></object>
+            </div>
+            <div class="service-list-block">
+              <h3 class="service-list-blok__title list--title">Creativity</h3>
+              <p class="service-list-blok__text list--text">
+                Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor.
+              </p>
+            </div>
+          </li>
+          <li class="service-list__item">
+            <div class="service-list__icon list__icon--book">
+              <object
+                data="./img/icon/BOOK.svg"
+                type="image/svg+xml"
+                class=""
+              ></object>
+            </div>
+            <div class="service-list-block">
+              <h3 class="service-list-blok__title list--title">seo</h3>
+              <p class="service-list-blok__text list--text">
+                Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod.
+              </p>
+            </div>
+          </li>
+          <li class="service-list__item">
+            <div class="service-list__icon list__icon--home">
+              <object
+                data="./img/icon/HOME.svg"
+                type="image/svg+xml"
+                class=""
+              ></object>
+            </div>
+            <div class="service-list-block">
+              <h3 class="service-list-blok__title list--title">Css/Html</h3>
+              <p class="service-list-blok__text list--text">
+                Lorem dolor sit amet, consectetur adipiscing elit, sed do
+                tempor.
+              </p>
+            </div>
+          </li>
+          <li class="service-list__item">
+            <div class="service-list__icon list__icon--didg">
+              <object
+                data="./img/icon/IMAGE.svg"
+                type="image/svg+xml"
+                class=""
+              ></object>
+            </div>
+            <div class="service-list-block">
+              <h3 class="service-list-blok__title list--title">digital</h3>
+              <p class="service-list-blok__text list--text">
+                Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="team__title section-title">Meet our team</h2>
+        <p class="team__text list--text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <ul class="team-list menu">
+          <li class="team-list__item">
+            <div class="team-list-box">
+              <img
+                srcset="
+                  ./img/content/man_1.jpg    380w,
+                  ./img/content/man_1@2x.jpg 760w
+                "
+                sizes="380px"
+                src="./img/content/man_1.jpg"
+                alt="Matthew Dix"
+                class="list-box__image"
+                width="380"
+                height="470"
+              />
+              <div class="team-list__content">
+                <ul class="team-social-list menu">
+                  <li class="team-social__item social__icon--facebook">
+                    <object
+                      data="./img/icon/facebook.svg"
+                      type="image/svg+xml"
+                      class="team-social__icon"
+                    ></object>
+                  </li>
+                  <li class="team-social__item social__icon--twitter">
+                    <object
+                      data="./img/icon/twitter.svg"
+                      type="image/svg+xml"
+                      class="team-social__icon"
+                    ></object>
+                  </li>
+                  <li class="team-social__item social__icon--pinterest">
+                    <object
+                      data="./img/icon/pinterest.svg"
+                      type="image/svg+xml"
+                      class="team-social__icon"
+                    ></object>
+                  </li>
+                  <li class="team-social__item social__icon--instagram">
+                    <object
+                      data="./img/icon/instagram.svg"
+                      type="image/svg+xml"
+                      class="team-social__icon"
+                    ></object>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h3 class="team-list__name list--title">Matthew Dix</h3>
+            <p class="team-list__post list--text">Graphic Design</p>
+          </li>
+          <li class="team-list__item">
+            <div class="team-list-box">
+              <img
+                srcset="
+                  ./img/content/man_2.jpg    380w,
+                  ./img/content/man_2@2x.jpg 760w
+                "
+                sizes="380px"
+                src="./img/content/man_2.jpg"
+                alt="Matthew Dix"
+                class="list-box__image"
+                width="380"
+                height="470"
+              />
+              <div class="team-list__content">
+                <ul class="team-social-list menu">
+                  <li class="team-social__item social__icon--facebook">
+                    <svg>
+                      <use href="./img/icon/symbol-defs.svg#facebook"></use>
+                    </svg>
+                  </li>
+                  <li class="team-social__item social__icon--twitter">
+                    <svg>
+                      <use href="./img/icon/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </li>
+                  <li class="team-social__item social__icon--pinterest">
+                    <svg>
+                      <use href="./img/icon/symbol-defs.svg#pinterest"></use>
+                    </svg>
+                  </li>
+                  <li class="team-social__item social__icon--instagram">
+                    <svg>
+                      <use href="./img/icon/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h3 class="team-list__name list--title">Christopher Campbell</h3>
+            <p class="team-list__post list--text">Branding/UX design</p>
+          </li>
+          <li class="team-list__item">
+            <div class="team-list-box">
+              <img
+                srcset="
+                  ./img/content/man_3.jpg    380w,
+                  ./img/content/man_3@2x.jpg 760w
+                "
+                sizes="380px"
+                src="./img/content/man_3.jpg"
+                alt="Matthew Dix"
+                class="list-box__image"
+                width="380"
+                height="470"
+              />
+              <div class="team-list__content">
+                <ul class="team-social-list menu">
+                  <li class="team-social__item social__icon--facebook">
+                    <object
+                      data="./img/icon/facebook.svg"
+                      type="image/svg+xml"
+                      class="team-social__icon"
+                    ></object>
+                  </li>
+                  <li class="team-social__item social__icon--twitter">
+                    <object
+                      data="./img/icon/twitter.svg"
+                      type="image/svg+xml"
+                      class="team-social__icon"
+                    ></object>
+                  </li>
+                  <li class="team-social__item social__icon--pinterest">
+                    <object
+                      data="./img/icon/pinterest.svg"
+                      type="image/svg+xml"
+                      class="team-social__icon"
+                    ></object>
+                  </li>
+                  <li class="team-social__item social__icon--instagram">
+                    <object
+                      data="./img/icon/instagram.svg"
+                      type="image/svg+xml"
+                      class="team-social__icon"
+                    ></object>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h3 class="team-list__name list--title">Michael Fertig</h3>
+            <p class="team-list__post list--text">Developer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer container">
+      <h4 class="footer__text">
+        2016 MoGo free PSD template by
+        <span class="footer__text--lastword">Laaqiq</span>
+      </h4>
+      <form class="footer-form">
+        <input
+          type="email"
+          placeholder="Your Email..."
+          class="footer-form__text"
+        />
+        <button class="footer-form__button">Subscribe</button>
+      </form>
+    </footer>
+  </body>
+</html>
