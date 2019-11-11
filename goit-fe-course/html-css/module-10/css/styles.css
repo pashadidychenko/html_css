@@ -95,18 +95,15 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.team-social__icon {
-  fill: #f38181;
-}
-.team-social__icon:hover {
-  fill: #fff;
-}
 .team-social__item svg {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
+  margin-top: 25%;
+  width: 26px;
+  height: 26px;
   fill: #f38181;
   transition: fill 0.2s linear;
+}
+.team-social__item:hover svg {
+  fill: #fff;
 }
 .team-social__item:hover {
   -webkit-transition-property: background-color;
