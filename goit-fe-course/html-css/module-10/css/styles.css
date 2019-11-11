@@ -101,7 +101,7 @@
   height: 26px;
   fill: #f38181;
   transition: fill 0.2s linear;
-}
+  }
 .team-social__item:hover svg {
   fill: #fff;
 }
@@ -116,6 +116,7 @@
        -o-transition-timing-function: linear;
           transition-timing-function: linear;
   background-color: #f38181;
+  cursor: pointer;
 }
 .team-social__item:not(:last-child) {
   margin-right: 1px;
