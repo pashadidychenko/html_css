@@ -1,0 +1,80 @@
+.team-list {
+  padding: 0;
+  @extend %display-flex;
+}
+.team-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &:hover .list-box__image {
+    @extend %animation;
+  }
+  &:hover .team-list__content {
+    @extend %animation;
+    opacity: 1;
+  }
+}
+.team-list-box {
+  position: relative;
+  margin-bottom: 30px;
+  background-color: $team-card-color;
+  height: 470px;
+}
+.list-box__image {
+  width: 380px;
+  height: 470px;
+}
+.team-list__content {
+  width: 380px;
+  height: 470px;
+  display: flex;
+  position: absolute;
+  background-image: $gradient;
+  top: 0px;
+  left: 0px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.team-social-list {
+  padding: 0;
+  display: flex;
+}
+.team-list__name {
+  font-size: 14px;
+  font-family: $font-prymary;
+  color: $primary-text-color;
+  font-weight: 400;
+}
+.team-list__post {
+  font-style: italic;
+  margin: 0px 0px 80px;
+}
+.team-social__item {
+  width: 56px;
+  height: 56px;
+  font-size: 0px;
+  background-color: $secondary-color;
+  display: flex;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-right: 1px;
+  }
+  &:hover svg {
+    fill: $head-prymary-color;
+  }
+  &:hover {
+    @extend %social-animation;
+  }
+}
+.team-social__item svg {
+  margin-top: 25%;
+  width: 26px;
+  height: 26px;
+  fill: $primary-color;
+  transition: fill 0.2s linear;
+}
+.inline-svg-icon {
+  width: 32px;
+  height: 32px;
+}

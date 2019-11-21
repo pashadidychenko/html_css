@@ -1,0 +1,50 @@
+.header {
+  height: $head-height;
+}
+.header-box {
+  width: 100%;
+  height: $head-height;
+  position: absolute;
+  background-image: $gradient;
+}
+.header-box__img {
+  position: absolute;
+  width: 100%;
+  height: $head-height;
+  z-index: -1;
+}
+.header__title {
+  font-family: $font-prymary;
+  font-size: 150px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: $head-prymary-color;
+  width: 980px;
+  text-align: center;
+  margin: 0;
+  &:before {
+    display: block;
+    content: 'Creative Template';
+    font-size: 72px;
+    font-family: $font-specific;
+    color: $head-prymary-color;
+    text-transform: none;
+    font-weight: 400;
+    padding-bottom: 66px;
+  }
+}
+.header__button {
+  border: 3px solid $head-prymary-color;
+  background-color: $opacity-color;
+  width: 164px;
+  height: 44px;
+  font-size: 14px;
+  font-family: $font-prymary;
+  color: $head-prymary-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  &:hover {
+    color: $secondary-color;
+    cursor: pointer;
+  }
+}

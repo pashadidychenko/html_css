@@ -1,0 +1,24 @@
+.service-list__icon svg {
+  margin-right: 28px;
+  font-size: 0px;
+  max-width: 40px;
+  height: 32px;
+  fill: $team-card-color;
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 88px;
+  padding: 0;
+}
+.service-list__item {
+  display: flex;
+  width: 380px;
+  &:not(:nth-last-child(-n + 3)) {
+    margin-bottom: 94px;
+  }
+}
+.service-list-blok__title {
+  margin-bottom: 10px;
+}

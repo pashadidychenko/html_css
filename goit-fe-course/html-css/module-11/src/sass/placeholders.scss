@@ -1,0 +1,41 @@
+%display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+%animation {
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  transform: translate(-10px, -10px);
+  cursor: pointer;
+}
+%social-animation {
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  background-color: $primary-color;
+  cursor: pointer;
+}
+%nav-animation {
+  transition-property: border-bottom;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  color: $secondary-color;
+  cursor: pointer;
+}
+%text-decoration {
+  font-family: $font-specific;
+  font-size: 24px;
+  color: $primary-text-color;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+%title-decoration {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: $primary-color;
+  content: '';
+  margin: 40px 0;
+}

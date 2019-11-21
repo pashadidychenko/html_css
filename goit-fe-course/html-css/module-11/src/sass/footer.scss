@@ -1,0 +1,45 @@
+.footer {
+  height: 62px;
+  @extend %display-flex;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: $border-color;
+}
+.footer__text {
+  font-family: $font-prymary;
+  font-size: 14px;
+  color: $primary-text-color;
+  font-weight: 400;
+  &:before {
+    content: '\00A9';
+  }
+}
+.footer__text--lastword {
+  color: $primary-color;
+}
+.footer-form {
+  display: flex;
+}
+.footer-form__text {
+  border: 1px solid $border-text-color;
+  background-color: $head-prymary-color;
+  width: 232px;
+  height: 40px;
+  font-size: 15px;
+  font-family: $font-secondary;
+  color: $form-text-color;
+  font-style: italic;
+  padding-left: 6px;
+}
+.footer-form__button {
+  border-style: none;
+  background-color: $team-card-color;
+  width: 150px;
+  font-size: 14px;
+  font-family: $font-prymary;
+  color: $head-prymary-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
