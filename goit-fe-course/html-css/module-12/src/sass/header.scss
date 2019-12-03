@@ -1,0 +1,308 @@
+.header {
+  display: flex;
+  position: relative;
+  height: 640px;
+  z-index: 1;
+}
+.header__decor-image--position {
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+.header__primary-logo-block {
+  width: 557px;
+  height: 183px;
+  background-image: url(../images/Rectangle15.png);
+  z-index: 2;
+}
+.header__secondary-logo-block {
+  position: absolute;
+  z-index: 1;
+  left: 160px;
+  width: 567px;
+  height: 81px;
+  background-image: url(../images/Rectangle22.png);
+}
+.header__logo {
+  margin: 0;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+.header__logo::before {
+  position: absolute;
+  left: 180px;
+  top: 10px;
+  border-radius: 11px;
+  transform: rotate(15deg);
+  content: "";
+  display: block;
+  width: 22px;
+  height: 54px;
+  background-color: rgb(255, 255, 255);
+  z-index: 5;
+}
+.header__logo-title::before {
+  position: absolute;
+  left: 199px;
+  top: 25px;
+  border-radius: 7px;
+  transform: rotate(15deg);
+  content: "";
+  display: block;
+  width: 14px;
+  height: 34px;
+  background-color: rgb(67, 67, 67);
+  z-index: 5;
+}
+.header__logo-title {
+  margin: 28px 0px 0px;
+  font-family: Bebas;
+  font-size: 38px;
+  line-height: 0.376;
+}
+.header__logo-text {
+  margin: 0;
+  font-family: Baron;
+  font-size: 15px;
+}
+.header__nav {
+  position: absolute;
+  display: flex;
+  z-index: 8;
+  list-style: none;
+  text-transform: uppercase;
+  justify-content: space-between;
+  width: 510px;
+  font-family: lato;
+  font-size: 14px;
+  font-weight: 900;
+  top: 20px;
+  left: 50%;
+}
+.header__nav li {
+  cursor: pointer;
+}
+.header__decor-box {
+  display: block;
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  z-index: 9;
+  top: 300px;
+  left: 475px;
+  background-color: #019edb;
+  transform: rotate(45deg);
+}
+.main {
+  background-image: url(../images/Block-brick.jpg);
+  height: 1216px;
+}
+.main__image {
+  position: relative;
+  z-index: 2;
+}
+.main__image--position {
+  position: absolute;
+  right: 0;
+  top: -562px;
+  z-index: 4;
+}
+.main__second-image--position {
+  position: absolute;
+  left: 564px;
+  top: 70px;
+  z-index: 5;
+}
+.main__decor-image--position {
+  position: absolute;
+  top: -438px;
+  z-index: 6;
+}
+.main__block-image {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: #1b1b1b;
+  box-shadow: -11.326px 8.229px 46px 0px rgba(35, 31, 32, 0.569);
+  z-index: 6;
+  transform: rotate(45deg);
+  top: -240px;
+  left: 200px;
+}
+.main__block-content {
+  position: absolute;
+  z-index: 7;
+  width: 260px;
+  transform: rotate(-45deg);
+  color: white;
+  top: 80px;
+  left: 80px;
+}
+.main__block-title {
+  margin: 0px 0px 20px;
+  font-size: 34px;
+  font-family: "Lato";
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #019edb;
+}
+.main__block-text {
+  height: 86px;
+  overflow-y: hidden;
+  font-size: 15px;
+  font-family: "Lato";
+  margin: 0px 0px 40px;
+  line-height: 1.533;
+}
+.main__block-buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Lato";
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 125px;
+  height: 35px;
+  background-color: #019edb;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.main__block-home {
+  display: block;
+  width: 322px;
+  height: 322px;
+  position: absolute;
+  top: 158px;
+  left: 390px;
+  z-index: 10;
+  background-color: rgb(1, 158, 219);
+  transform: rotate(45deg);
+}
+.main__block-home-content {
+  transform: rotate(-45deg);
+  margin-left: 10px;
+
+}
+.main__block-home-title {
+  margin: 0;
+font-family: lato;
+font-size: 82px;
+font-weight: 900;
+text-transform: uppercase;
+color: white;
+margin-left: 64px;
+}
+.main__block-home-second-title {
+  margin: 0;
+  font-family: lato;
+  font-size: 24;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 10px;
+}
+.main_block-home-text {
+  width: 260px;
+  height: 82px;
+  overflow-y: hidden;
+  color: white;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.main__title {
+  position: absolute;
+  bottom: 406px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main-title {
+font-family: Lato;
+font-size: 38;
+text-transform: uppercase;
+font-weight: 900;
+color: white;
+line-height: 1.2;
+letter-spacing: 2px;
+text-align: center;
+}
+.main-title-text {
+  font-family: Lato;
+  font-size: 24;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+}
+.main-info  {
+  position: absolute;
+  bottom: 160px;
+  color: white;
+  display: flex;
+left: 50%;
+transform: translateX(-50%);
+}
+.main-info__about, .main-info__feature {
+  background-color: rgba(69, 69, 69, 0.502);
+  width: 322px;
+  height: 203px;
+  margin: 0;
+  padding: 34px 0px 0px 36px;
+}
+.main-info__title {
+  margin: 0;
+  font-family: Harabara;
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.main-info__text {
+  margin-top: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.429;
+  padding-right: 24px;
+}
+.main-info__decor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-info__decore--blok {
+  width: 4px;
+  height: 42px;
+  background-color: white;
+}
+.main-info__decore--box {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  transform: rotate(45deg);
+  margin: 12px 50px;
+}
+.main-info__decore--blok {
+  width: 4px;
+  height: 42px;
+  background-color: white;
+}
+.main__button {
+  background-color: rgb(1, 158, 219);
+  position: absolute;
+  bottom: 74px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 125px;
+  height: 35px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 18px;
+  border: none;
+}
